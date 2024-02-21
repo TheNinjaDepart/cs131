@@ -1,0 +1,4 @@
+238 music.txt (The line count for records in the "Music" category from the dataset)
+830 music.txt (The word count for records in the "Music" category from the dataset)
+
+Redirected from a seperate file
