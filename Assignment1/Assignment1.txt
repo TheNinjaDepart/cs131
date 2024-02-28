@@ -1,0 +1,51 @@
+1) The "Assignment1" directory was made using the command: (mkdir Assignment1) while inside the cs131 directory.
+
+
+2) You can find your current shell by using (echo $SHELL) or (echo $0).
+
+/bin/bash (Output from echo $SHELL which shows the default shell) 
+-bash (Output from echo $0 which shows the current running program)
+
+
+2) To find my home directory path I used the echo ($HOME) command.
+
+/mnt/scratch/SP24_CS131_Jyotika/briansp24 (Output from echo $HOME
+
+
+3) My userid is 1225 and I am in group 78. I found out using the (id) command.
+
+uid=1225(briansp24) gid=1225(briansp24) groups=1225(briansp24),78(S78)
+
+
+4) I can cd into the directory because I still have execute permissions. I can still list files using ls and ls -l because I still have read permissions. But I cannot create files under it because I do not have write permissions.
+
+
+6) The memory usage of the VM can be found using (free -m), -m displays the memory in mebibytes.
+
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32424       19890        3514       19053       33970
+Swap:          4119           0        4119
+
+
+9) /etc/os-release is where the os version info is kept.
+
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+
+10) All users have read, write, and execute permissions. 

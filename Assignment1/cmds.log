@@ -1,0 +1,100 @@
+  369  clear
+  370  ls
+  371  cat a.txt
+  372  clear
+  373  echo $
+  374  echo $?
+  375  clear
+  376  echo lll
+  377  lll
+  378  cat lll
+  379  clear
+  380  source .bashrc
+  381  lll
+  382  passwd
+  383  clear
+  384  echo passwd
+  385  cat passwd
+  386  clear
+  387  exit
+  388  clear
+  389  ls
+  390  cd cs131
+  391  ls
+  392  mkdir Assignment1 (Question 1)
+  393  cd Assignment1
+  394  clear
+  395  echo $SHELL
+  396  echo $0
+  397  echo $SHELL > Assignment1.txt (Question 2)
+  398  echo $0 >> Assignment1.txt
+  399  ls
+  400  vi Assignment1.txt
+  401  echo $HOME
+  402  echo $HOME >> Assignment1.txt (Question 2)
+  403  vi Assignment1.txt
+  404  mkdir myDir (Question 4)
+  405  ls
+  406  echo /etc/passwd
+  407  echo $UID
+  408  id
+  409  id -u
+  410  id >> Assignment1.txt (Question 3)
+  411  vi Assignment1.txt
+  412  clear
+  413  ls -l
+  414  chmod 555 myDir (Question 4)
+  415  ls -l
+  416  vi Assignment1.txt
+  417  mkdir myDir2 (Question 5)
+  418  mkdir myDir3
+  419  cd myDir2
+  420  vi myFile.txt (Question 6)
+  421  mv myFile.txt myDir3
+  422  ls
+  423  vi myFile.txt
+  424  ls
+  425  mv myFile.txt myDir3
+  426  cd .
+  427  cd -
+  428  cd ..
+  429  cd myDir3
+  430  ls
+  431  clear
+  432  cd ..
+  433  ls
+  434  cd myDir2
+  435  ls
+  436  rm myDir3
+  437  vi myFile.txt
+  438  ls
+  439  mv myFile.txt /myDir3
+  440  cd -
+  441  cd myDir2
+  442  ls
+  443  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/briansp24/cs131/Assignment1/myDir3 (Question 6)
+  444  ls
+  445  cd ..
+  446  cd myDir3
+  447  ls
+  448  clear
+  449  free -m
+  450  free -m >> Assignment1.txt
+  451  cat /etc/os-release
+  452  cat /etc/os-release >> Assignment1.txt
+  453  ls -l /etc/os-release (Question 10)
+  454  clear
+  455  cd..
+  456  cd ..
+  457  ls
+  458  cd myDir3
+  459  ls
+  460  rm Assignment1.txt
+  461  ls
+  462  cd ..
+  463  free -m >> Assignment1.txt (Question 6)
+  464  cat /etc/os-release >> Assignment1.txt (Question 9)
+  465  vi Assignment1.txt
+  466  history 50 > cmds.log
+  467  vi cmds.log
+  468  history 100 > cmds.log
