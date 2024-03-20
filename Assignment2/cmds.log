@@ -1,0 +1,78 @@
+  493  ls
+  494  mkdir Assignment2
+  495  cs Assignment2
+  496  cd Assignment2
+  497  find /etc -type f > one.txt 2 > two.txt (Question 1)	
+  498  find /etc -type f > one.txt 2> two.txt
+  499  ls
+  500  vi one.txt
+  501  vi two.txt
+  502  clear
+  503  vi Assignment2.txt
+  504  cat one.txt
+  505  cat two.txt
+  506  clear
+  507  vi Assignment.txt
+  508  rm Assignment.txt
+  509  ls
+  510  vi Assignment2.txt
+  511  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  512  ls
+  513  cat 'Global YouTube Statistics.csv'
+  514  cut -d',' -f20 'Global YouTube Statistics.csv' > year.txt
+  515  cat year.txt
+  516  cut -d',' -f21 'Global YouTube Statistics.csv' > month.txt
+  517  cat month.txt
+  518  clear
+  519  sort year.txt
+  520  sort month.txt
+  521  clear
+  522  rm year.txt
+  523  rm month.txt
+  524  cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt (Question 2)
+  525  cat date.txt
+  526  uniq -c 'Global YouTube Statistics.csv' |  unique.txt
+  527  uniq -c 'Global YouTube Statistics.csv' >  unique.txt
+  528  cat unique.txt
+  529  clear
+  530  uniq -c date.txt > unique.txt
+  531  cat unique.txt
+  532  sort -n date.txt
+  533  uniq -c date.txt > unique.txt
+  534  cat unique.txt
+  535  sort -n date.txt | uniq -c date.txt > unique.txt 
+  536  cat unique.txt
+  537  clear
+  538  ls
+  539  cat date.txt
+  540  sort -n date.txt > date.txt
+  541  cat date.txt
+  542  ls
+  543  cat date.txt
+  544  vi date.txt
+  545  cat unique.txt
+  546  cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt
+  547  cat date.txt
+  548  clear
+  549  uniq -c date.txt | sort -rn | unique
+  550* 
+  551  cat unique.txt
+  552  ls
+  553  vi Assignment2.txt
+  554  clear
+  555  ps -u briansp24 (Question 3)
+  556  ps -u briansp24 >> Assignment2.txt
+  557  vi Assignment2.txt (Question 4)
+  558  pidof init 
+  559  pidof systemd (Question 5)
+  560  pgrep -l systemd
+  561  ps systemd
+  562  ps
+  563  clear
+  564  vi Assignment2.txt (Question 6)
+  565  clear
+  566  ls
+  567  history -t 300 > cmds.log
+  568  history > cmds.log
+  569  cat cmds.log
+  570  history 78 > cmds.log

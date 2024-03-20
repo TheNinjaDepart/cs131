@@ -1,0 +1,55 @@
+Question 1) 
+a) The command is looking through the /etc directory and finding files (indicated by type -f) and pasting the output to a text file called one.txt. The '2>' represents the file descriptor for standard error and redirects the output to another file named two.txt.
+b) All the files we had permission to read in /etc were sent to one.txt like normal, however all the files we did not have sufficient permission for returned an error which was directed to two.txt. 
+
+Question 2) 
+1. January, 2016 with 2 channels
+2. April, 2016 with 2 channels
+3. January, 2015 with 2 channels
+
+The commands I used to find these were: 
+cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt (I cut the two columns of data that coincided with the year and month of creation and specified that the delimiter -d was ',' and that I wanted fields 20 and 21. I then redirectd the output to another file.)
+uniq -c date.txt | sort -rn > unique.txt (I counted the unique lines of date and then piped the sorted outpout to another file with the most on top.)
+
+Question 3)
+    PID TTY          TIME CMD
+3851417 ?        00:00:02 systemd
+3851419 ?        00:00:00 (sd-pam)
+3851425 ?        00:00:00 sshd
+3851426 pts/17   00:00:00 bash
+3869861 pts/17   00:00:00 ps
+
+Question 4)
+
+b) 
+PID TTY          TIME CMD
+3851417 ?        00:00:02 systemd
+3851419 ?        00:00:00 (sd-pam)
+3851425 ?        00:00:00 sshd
+3851426 pts/17   00:00:00 bash
+3870463 ?        00:00:00 sshd
+3870465 pts/34   00:00:00 bash
+3870727 ?        00:00:00 sshd
+3870730 pts/36   00:00:00 bash
+3870791 pts/36   00:00:00 vim
+3870982 pts/34   00:00:00 ps
+
+(There are two more instances running that show up as other sshd and bash shells because I opened up two more terminals. The process id of the vim is 3870791.)
+
+d) 
+PID TTY          TIME CMD
+3851417 ?        00:00:03 systemd
+3851419 ?        00:00:00 (sd-pam)
+3851425 ?        00:00:00 sshd
+3851426 pts/17   00:00:00 bash
+3870463 ?        00:00:00 sshd
+3870465 pts/34   00:00:00 bash
+3870727 ?        00:00:00 sshd
+3870730 pts/36   00:00:00 bash
+3872936 pts/34   00:00:00 ps
+
+(The vim process is no longer there as I closed out if it). 
+
+Question 5) init is the first process that runs on boot up and initializes all other processes from script. The PID of init is 1. Which can be found using the commands of pgrep or pidof. pidof systemd.
+
+Question 6) The ps aux command that has extra options to the process status command to show useful information to the user. The 'a' option shows running processes from all users, 'u' shows provides a user friendly format for info, and 'x' prints processes that have not been executed from terminal.  
