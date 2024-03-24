@@ -1,0 +1,100 @@
+  546  sort -n date.txt > date.txt
+  547  cat date.txt
+  548  ls
+  549  cat date.txt
+  550  vi date.txt
+  551  cat unique.txt
+  552  cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt
+  553  cat date.txt
+  554  clear
+  555  uniq -c date.txt | sort -rn | unique
+  556  cat unique.txt
+  557  ls
+  558  vi Assignment2.txt
+  559  clear
+  560  ps -u briansp24
+  561  ps -u briansp24 >> Assignment2.txt
+  562  vi Assignment2.txt
+  563  pidof init
+  564  pidof systemd
+  565  pgrep -l systemd
+  566  ps systemd
+  567  ps
+  568  clear
+  569  vi Assignment2.txt
+  570  clear
+  571  ls
+  572  history -t 300 > cmds.log
+  573  history > cmds.log
+  574  cat cmds.log
+  575  history 78 > cmds.log
+  576  cat cmds.log
+  577  vi cmds.log
+  578  clear
+  579  git status
+  580  git add
+  581  git add Assignment2
+  582  cat history
+  583  history
+  584  cd cs131
+  585  git add Assignment2
+  586  cd ..
+  587  git add Assignment2
+  588  git status
+  589  git commit -m "Assignment2"
+  590  git push origin master
+  591  clear
+  592  ls
+  593  cd cs131
+  594  ls
+  595  mkdir Worksheet3
+  596  cd Worksheet3
+  597  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  598  clear
+  599  ls
+  600  cat 'Global YouTube Statistics.csv'
+  601  grep ,United States, 'Global YouTube Statistics.csv' > ws3.txt
+  602  grep ",United States," 'Global YouTube Statistics.csv' > ws3.txt
+  603  cat ws3.txt
+  604  clear
+  605  cat ws3.txt
+  606  cat 'Global YouTube Statistics.csv'
+  607  sort ws3.txt -k 16nr
+  608  sort ws3.txt -k 16
+  609  clear
+  610  sort ws3.txt -k 16
+  611  sort ws3.txt -k 1
+  612  vi ws3.txt
+  613  clear
+  614  cat 'Global YouTube Statistics.csv'
+  615  clear
+  616  sort -n -k 16 ws3.txt
+  617  sort -k -n 16,16 ws3.txt > ws3.txt
+  618  sort -kn 16,16 ws3.txt > ws3.txt
+  619  sort -n  -k 16,16 ws3.txt > ws3.txt
+  620  cat ws3.txt
+  621  ls
+  622  cat ws3.txt
+  623  clear
+  624  l
+  625  ls
+  626  grep ",United States," 'Global YouTube Statistics.csv' > ws3.txt
+  627  cat ws3.txt
+  628  grep ",United States," 'Global YouTube Statistics.csv' | cut > ws3.txt
+  629  sort -t, -k 16n,16 'Global YouTube Statistics.csv'
+  630  grep ",United Kingdom,sort -t, -k 16n,16 
+  631  fds
+  632  :
+  633  "
+  634  clear
+  635  sort -t, -k 16nr,16 'Global YouTube Statistics.csv'
+  636  sort -t, -k 3nr,3 'Global YouTube Statistics.csv'
+  637  vi ws3.txt
+  638  clear
+  639  ls
+  640  vi ws3.txt
+  641  cd cs131
+  642  cd Worksheet3
+  643  ls
+  644  vi ws3.txt
+  645  history 100 > cmds.log
