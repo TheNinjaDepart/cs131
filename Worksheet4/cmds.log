@@ -1,0 +1,680 @@
+    1  passwd
+    2  ls
+    3  ls 
+    4  cd Downloads
+    5  wget www.github.com
+    6  ls
+    7  vim index.html
+    8  ls
+    9  wget https://github.com/Shazbot/WH3-Dump/blob/main/db/main_units_tables/data__.tsv
+   10  ls
+   11  vi data__.tsv
+   12  cd Documents
+   13  cd admin/Documents
+   14  exit
+   15  git --version
+   16  ls
+   17  wget www.github.com
+   18  ls
+   19  git init
+   20  touch index.html
+   21  ls
+   22  cd /mnt/scratch/SP24_CS131_Jyotika/briansp24
+   23  touch index.html
+   24  git status
+   25  git add index.html.1
+   26  git status
+   27  git commit -m "test message"
+   28  git checkout -b Worksheet1
+   29  git branch
+   30  git branch Worksheet1
+   31  git branch
+   32  git remote add origin https://github.com/TheNinjaDepart/cs131.git
+   33  git branch -M main
+   34  git push -u origin main
+   35  exit
+   36  systemctl enable --now cockpit.socket
+   37  exit
+   38  ls
+   39  rm data__.tsv
+   40  ls
+   41  rm index.html
+   42  rm index.html.1
+   43  ls
+   44  ;s
+   45  ls
+   46  clear
+   47  wget www.github.com
+   48  git init
+   49  git checkout -b Worksheet1
+   50  git branch
+   51  git branch -b
+   52  git branch -l
+   53  git branch --list
+   54  git git branch master
+   55  git branch master
+   56  git rm
+   57  rm -rf .git
+   58  exit
+   59  ls
+   60  clear
+   61  wget https://github.com/dwyl/english-words/blob/master/words.txt
+   62  vi words.txt
+   63  clear
+   64  ls
+   65  rm words.txt
+   66  vi text.txt
+   67  ls
+   68  clear
+   69  vi text.txt
+   70  sort text.txt
+   71  grep ist1 text.txt
+   72  grep ist text.txt
+   73  clear
+   74  echo "hello"
+   75  echo 'hello'
+   76  echo 'Hello
+   77  fdk
+   78  exit
+   79  escape
+   80  >
+   81  '
+   82  clear
+   83  echo" first line
+   84  second line"
+   85  clear
+   86  $home
+   87  $HOME
+   88  clear
+   89  echo $SHELL
+   90  ckear
+   91  clear
+   92  a="test"
+   93  echo $a
+   94  printenv
+   95  $printenv
+   96  clear
+   97  echo $a
+   98  clear
+   99  rm $a
+  100  clear
+  101  $printenv
+  102  printenv
+  103  clear
+  104  echo $0
+  105  clear
+  106  echo $i
+  107  echo $1
+  108  clear
+  109  wc -l text.txt
+  110  vi text.txt
+  111  a=bcd+1+4
+  112  echo $a
+  113  a=$(2+1)
+  114  a=$((2+1))
+  115  echo $a
+  116  a="abc"
+  117  b=${a}def
+  118  echo $b
+  119  clear
+  120  date
+  121  export DATETIME='date'
+  122  OUTDIR=out.$DATETIME
+  123  echo $OUTDIR
+  124  export DATETIME='date "+%Y%m%d_%H%M%S"'
+  125  echo $OUTDIR
+  126  clear
+  127  echo $?
+  128  echo 'pwd'
+  129  echo "pwd"
+  130  clear
+  131   clear
+  132  rm words.txt
+  133  clear
+  134  vi .bashrc
+  135  source .bashrc
+  136  echo lll
+  137  lll
+  138  vi .bashrc
+  139  exit
+  140  ls
+  141  rm index.html
+  142  ls
+  143  clear
+  144  wget www.github.com
+  145  clear
+  146  git init
+  147  rm -rf .git
+  148  clear
+  149  git init cs131
+  150  mkdir Worksheet1
+  151  history > cmds.log
+  152  ls
+  153  cd Worksheet1
+  154  back
+  155  cd ~
+  156  rmdir Worksheet1
+  157  ls
+  158  clear
+  159  cd cs131
+  160  ls
+  161  mkdir Worksheet1
+  162  cd Worksheet1
+  163  cd cs131
+  164  cd ~
+  165  ls
+  166  cd cs131
+  167  ls
+  168  cd Worksheet1
+  169  git add cmds.log
+  170  history > cmds.log
+  171  ls
+  172  git add cmds.log
+  173  git status
+  174  git commit -m "commit for worksheet"
+  175  git status
+  176  git commit -m "test commit"
+  177  git config user.email "brian.h.pham@sjsu.edu"
+  178  git config user.name "Brian Pham"
+  179  git commit -m "test commit"
+  180  clear
+  181  ls
+  182  git status
+  183  cd ~
+  184  git remote add origin https://github.com/TheNinjaDepart/cs131.git
+  185  cd cs131
+  186  git remote add origin https://github.com/TheNinjaDepart/cs131.git
+  187  git push -u origin master
+  188  clear
+  189  git remote add origin https://github.com/TheNinjaDepart/cs131.git
+  190  git branch -M master
+  191  git push -u origin master
+  192  clear
+  193  git push -u origin master
+  194  cd ~
+  195  exit
+  196  clear
+  197  grep S78 /etc/group
+  198  grep S78 /etc/
+  199  grep S78
+  200  cat /etc/crontab
+  201  clear
+  202  crontab -;
+  203  crontab -l
+  204  clear
+  205  date
+  206  clear
+  207  ls
+  208  cd cs131
+  209  ls
+  210  mkdir Worksheet2
+  211  ls
+  212  cd ~
+  213  ls
+  214  clear
+  215  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  216  clear
+  217  ls
+  218  clear
+  219  ls
+  220  vi 'Global Youtube Statistics.csv'
+  221  ls
+  222  rm 'Global Youtube Statistics.csv'
+  223  ls
+  224  clear
+  225  ls
+  226  vi /~/'Global YouTube Statistics.csv'/
+  227  ls
+  228  clear
+  229  ls
+  230  vi /index.html
+  231  ls
+  232  vi /text.txt/
+  233  rm text.txt
+  234  rm index.html
+  235  clear
+  236  ls
+  237  vi cmds.log
+  238  clear
+  239  ls
+  240  rm Global Youtube Statistics.csv
+  241  rm globalyoutubestatistics.csv
+  242  clear
+  243  dir
+  244  rm Global\ Youtube\ Statistics.csv
+  245  clear
+  246  ls
+  247  rm 'Global YouTube Statistics.csv'
+  248  ls
+  249  clear
+  250  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  251  ls
+  252  vi 'Global YouTube Statistics.csv'
+  253  clear
+  254  grep 'United States' 'Global YouTube Statistics.csv'
+  255  grep "Music" 'Global YouTube Statistics.csv'
+  256  clear
+  257  ls
+  258  grep "United States" 'Global YouTube Statistics.csv'
+  259  grep "Music" 'Global YouTube Statistics.csv'
+  260  clear
+  261  grep "Music" 'Global YouTube Statistics.csv'
+  262  cut grep "Music" 'Global YouTube Statistics.csv'
+  263  cut -d',' -f3 'Global YouTube Statistics.csv' | head -n 5
+  264  clear
+  265  exir
+  266  exit
+  267  clear
+  268  ls -lrt
+  269  ls -l
+  270  clear
+  271  ls | grep test
+  272  ls | grep cmds
+  273  clear
+  274  ls
+  275  ls | grep "United States" | wc -l
+  276  clear
+  277  ls | grep "cmdss" | wc -l
+  278  clear
+  279  ls
+  280  grep 
+  281  grep 'Global YouTube Statistics.csv' | grep "United States"
+  282  clear
+  283  ls
+  284  grep "Music" 'Global YouTube Statistics.csv' | grep "United States" 
+  285  clear
+  286  ls -a
+  287  clear
+  288  ls -la
+  289  vi test.txt
+  290  clear
+  291  ls -la
+  292  chmod 764 test.txt
+  293  vi test.txt
+  294  clear
+  295  ls -la
+  296  chmod 764 test.txt
+  297  ls -la
+  298  chmod 754 test.txt
+  299  ls -la
+  300  clear
+  301  cat test.txt
+  302  clear
+  303  ls
+  304  ls *.txt
+  305  ls ?.txt
+  306  vi a.txt
+  307  ls ?.txt
+  308  ls [e].txt
+  309  ls [a].txt
+  310  ls [a-z].txt
+  311  ls [b]ashrc
+  312  ls [b]ashrc.txt
+  313  ls -a
+  314  ls .[b]ashrc
+  315  ls .[ba]ashrc
+  316  exit
+  317  clear
+  318  exit
+  319  clear
+  320  ls
+  321  rm test.txt
+  322  clear
+  323  ls
+  324  grep "United States" 'Global YouTube Statistics.csv'
+  325  grep "Music" 'Global YouTube Statistics.csv'
+  326  clear
+  327  grep "Music" > music.txt
+  328  clear
+  329  ls
+  330  grep "Music" 'Global YouTube Statistics.csv' > music.txt
+  331  vi music.txt
+  332  wc -l music.txt
+  333  wc -w music.txt
+  334  wc -l music.txt > counts.txt
+  335  wc -w music.txt > counts.txt
+  336  vi counts.txt
+  337  wc -l music.txt > counts.txt
+  338  vi counts.txt
+  339  wc -w music.txt >> counts.tzt
+  340  ls
+  341  rm counts.tzt
+  342  wc -w music.txt>> counts.txt
+  343  vi counts.txt
+  344  mv counts.txt /cs131/Worksheet2
+  345  cd cs131
+  346  ls
+  347  cd ..
+  348  mv counts.txt /~/cs131/Worksheet2
+  349  mv counts.txt cs131/Worksheet2
+  350  clear
+  351  cd cs131
+  352  cd Worksheet2
+  353  ls
+  354  vi counts.txt
+  355  history > cmds.log
+  356  ls
+  357  vi cmds.log
+  358  clear
+  359  git status
+  360  git add counts.txt
+  361  git add cmds.log
+  362  git status
+  363  git commit -m "Worksheet 2"
+  364  git push origin master
+  365  clear
+  366  ls
+  367  cat music.txt
+  368  cleear
+  369  clear
+  370  ls
+  371  cat a.txt
+  372  clear
+  373  echo $
+  374  echo $?
+  375  clear
+  376  echo lll
+  377  lll
+  378  cat lll
+  379  clear
+  380  source .bashrc
+  381  lll
+  382  passwd
+  383  clear
+  384  echo passwd
+  385  cat passwd
+  386  clear
+  387  exit
+  388  clear
+  389  ls
+  390  cd cs131
+  391  ls
+  392  mkdir Assignment1
+  393  cd Assignment1
+  394  clear
+  395  echo $SHELL
+  396  echo $0
+  397  echo $SHELL > Assignment1.txt
+  398  echo $0 >> Assignment1.txt
+  399  ls
+  400  vi Assignment1.txt
+  401  echo $HOME
+  402  echo $HOME >> Assignment1.txt
+  403  vi Assignment1.txt
+  404  mkdir myDir
+  405  ls
+  406  echo /etc/passwd
+  407  echo $UID
+  408  id
+  409  id -u
+  410  id >> Assignment1.txt
+  411  vi Assignment1.txt
+  412  clear
+  413  ls -l
+  414  chmod 555 myDir
+  415  ls -l
+  416  vi Assignment1.txt
+  417  mkdir myDir2
+  418  mkdir myDir3
+  419  cd myDir2
+  420  vi myFile.txt
+  421  mv myFile.txt myDir3
+  422  ls
+  423  vi myFile.txt
+  424  ls
+  425  mv myFile.txt myDir3
+  426  cd .
+  427  cd -
+  428  cd ..
+  429  cd myDir3
+  430  ls
+  431  clear
+  432  cd ..
+  433  ls
+  434  cd myDir2
+  435  ls
+  436  rm myDir3
+  437  vi myFile.txt
+  438  ls
+  439  mv myFile.txt /myDir3
+  440  cd -
+  441  cd myDir2
+  442  ls
+  443  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/briansp24/cs131/Assignment1/myDir3
+  444  ls
+  445  cd ..
+  446  cd myDir3
+  447  ls
+  448  clear
+  449  free -m
+  450  free -m >> Assignment1.txt
+  451  cat /etc/os-release
+  452  cat /etc/os-release >> Assignment1.txt
+  453  ls -l /etc/os-release
+  454  clear
+  455  cd..
+  456  cd ..
+  457  ls
+  458  cd myDir3
+  459  ls
+  460  rm Assignment1.txt
+  461  ls
+  462  cd ..
+  463  free -m >> Assignment1.txt
+  464  cat /etc/os-release >> Assignment1.txt
+  465  vi Assignment1.txt
+  466  history 50 > cmds.log
+  467  vi cmds.log
+  468  history 100 > cmds.log
+  469  vi cmds.log
+  470  cd ..
+  471  git add
+  472  cd cs131
+  473  git add Assignment1
+  474  git status
+  475  ls
+  476  git push origin master
+  477  git status
+  478  git commit -m "Assignment1"
+  479  git push origin master
+  480  clear
+  481  exit
+  482  clear
+  483  ls .[b]ashrc
+  484  ls .[ba]ashrc
+  485  ls .[!c]ashrc
+  486  tmux
+  487  exit
+  488  clear
+  489  ls
+  490  tmux
+  491  clear
+  492  vi file.txt
+  493  exit
+  494  clear
+  495  ps -u briansp24
+  496  exit
+  497  clear
+  498  cd cs131
+  499  ls
+  500  mkdir Assignment2
+  501  cs Assignment2
+  502  cd Assignment2
+  503  find /etc -type f > one.txt 2 > two.txt
+  504  find /etc -type f > one.txt 2> two.txt
+  505  ls
+  506  vi one.txt
+  507  vi two.txt
+  508  clear
+  509  vi Assignment2.txt
+  510  cat one.txt
+  511  cat two.txt
+  512  clear
+  513  vi Assignment.txt
+  514  rm Assignment.txt
+  515  ls
+  516  vi Assignment2.txt
+  517  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  518  ls
+  519  cat 'Global YouTube Statistics.csv'
+  520  cut -d',' -f20 'Global YouTube Statistics.csv' > year.txt
+  521  cat year.txt
+  522  cut -d',' -f21 'Global YouTube Statistics.csv' > month.txt
+  523  cat month.txt
+  524  clear
+  525  sort year.txt
+  526  sort month.txt
+  527  clear
+  528  rm year.txt
+  529  rm month.txt
+  530  cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt
+  531  cat date.txt
+  532  uniq -c 'Global YouTube Statistics.csv' |  unique.txt
+  533  uniq -c 'Global YouTube Statistics.csv' >  unique.txt
+  534  cat unique.txt
+  535  clear
+  536  uniq -c date.txt > unique.txt
+  537  cat unique.txt
+  538  sort -n date.txt
+  539  uniq -c date.txt > unique.txt
+  540  cat unique.txt
+  541  sort -n date.txt | uniq -c date.txt > unique.txt 
+  542  cat unique.txt
+  543  clear
+  544  ls
+  545  cat date.txt
+  546  sort -n date.txt > date.txt
+  547  cat date.txt
+  548  ls
+  549  cat date.txt
+  550  vi date.txt
+  551  cat unique.txt
+  552  cut -d',' -f20,21 'Global YouTube Statistics.csv' > date.txt
+  553  cat date.txt
+  554  clear
+  555  uniq -c date.txt | sort -rn | unique
+  556  cat unique.txt
+  557  ls
+  558  vi Assignment2.txt
+  559  clear
+  560  ps -u briansp24
+  561  ps -u briansp24 >> Assignment2.txt
+  562  vi Assignment2.txt
+  563  pidof init
+  564  pidof systemd
+  565  pgrep -l systemd
+  566  ps systemd
+  567  ps
+  568  clear
+  569  vi Assignment2.txt
+  570  clear
+  571  ls
+  572  history -t 300 > cmds.log
+  573  history > cmds.log
+  574  cat cmds.log
+  575  history 78 > cmds.log
+  576  cat cmds.log
+  577  vi cmds.log
+  578  clear
+  579  git status
+  580  git add
+  581  git add Assignment2
+  582  cat history
+  583  history
+  584  cd cs131
+  585  git add Assignment2
+  586  cd ..
+  587  git add Assignment2
+  588  git status
+  589  git commit -m "Assignment2"
+  590  git push origin master
+  591  clear
+  592  ls
+  593  cd cs131
+  594  ls
+  595  mkdir Worksheet3
+  596  cd Worksheet3
+  597  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  598  clear
+  599  ls
+  600  cat 'Global YouTube Statistics.csv'
+  601  grep ,United States, 'Global YouTube Statistics.csv' > ws3.txt
+  602  grep ",United States," 'Global YouTube Statistics.csv' > ws3.txt
+  603  cat ws3.txt
+  604  clear
+  605  cat ws3.txt
+  606  cat 'Global YouTube Statistics.csv'
+  607  sort ws3.txt -k 16nr
+  608  sort ws3.txt -k 16
+  609  clear
+  610  sort ws3.txt -k 16
+  611  sort ws3.txt -k 1
+  612  vi ws3.txt
+  613  clear
+  614  cat 'Global YouTube Statistics.csv'
+  615  clear
+  616  sort -n -k 16 ws3.txt
+  617  sort -k -n 16,16 ws3.txt > ws3.txt
+  618  sort -kn 16,16 ws3.txt > ws3.txt
+  619  sort -n  -k 16,16 ws3.txt > ws3.txt
+  620  cat ws3.txt
+  621  ls
+  622  cat ws3.txt
+  623  clear
+  624  l
+  625  ls
+  626  grep ",United States," 'Global YouTube Statistics.csv' > ws3.txt
+  627  cat ws3.txt
+  628  grep ",United States," 'Global YouTube Statistics.csv' | cut > ws3.txt
+  629  sort -t, -k 16n,16 'Global YouTube Statistics.csv'
+  630  grep ",United Kingdom,sort -t, -k 16n,16 
+  631  fds
+  632  :
+  633  "
+  634  clear
+  635  sort -t, -k 16nr,16 'Global YouTube Statistics.csv'
+  636  sort -t, -k 3nr,3 'Global YouTube Statistics.csv'
+  637  vi ws3.txt
+  638  clear
+  639  ls
+  640  vi ws3.txt
+  641  cd cs131
+  642  cd Worksheet3
+  643  ls
+  644  vi ws3.txt
+  645  history 100 > cmds.log
+  646  cat cmds.log
+  647  clear
+  648  ls
+  649  cd ..
+  650  cd..
+  651  cd ..
+  652  rm ws3.txt
+  653  ls
+  654  rm music.txt
+  655  rm a.txt
+  656  ls
+  657  clear
+  658  git add
+  659  git add Worksheet3
+  660  history
+  661  cd cs131
+  662  git add Worksheet3
+  663  git commit -m "Worksheet3"
+  664  git push origin master
+  665  clear
+  666  exit
+  667  clear
+  668  cd cs131
+  669  ls
+  670  mkdir Worksheet4
+  671  cd Worksheet4
+  672  script ws4.txt
+  673  ls
+  674  cat ws4.txt
+  675  cd ..
+  676  git add
+  677  git add Worksheet4
+  678  git status
+  679  cd Worksheet4
+  680  history >cmds.log
