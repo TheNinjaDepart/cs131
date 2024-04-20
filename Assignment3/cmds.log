@@ -1,0 +1,92 @@
+  786  cd cs131
+  787  mkdir Assignment3
+  788  ls
+  789  cd Assignment 3
+  790  cd Assignment3
+  791  clear
+  792  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  793  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  794  cler
+  795  clear
+  796  ls
+  797  last
+  798  grep 'sp24' last.fake > lastsp24.fake (Task 1)
+  799  cat lastsp24.fake
+  800  wc last.fake
+  801  wc -l last.fake
+  802  wc -l lastsp24.fake
+  803  sed -n '$=' last.fake
+  804  sed -n '$=' lastsp24.fake
+  805  vi Assignment3.txt
+  806  clear
+  807  cat lastsp24.fake
+  808  grep Sun lastsp24.fake | awk '{print $1}' (Task 2)
+  809  grep Sun lastsp24.fake | awk '{print $1}' | sort | uniq
+  810  grep Sun lastsp24.fake | awk ' BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"} ' | sort | uniq
+  811  grep Sun lastsp24.fake | sort | uniq | awk ' BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"} '
+  812  grep Sun lastsp24.fake | awk ' {print $1} ' | sort | uniq > unique.txt
+  813  cat unique.txt
+  814  awk ' BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"} ' unique.txt
+  815  vi Assignment3.txt
+  816  cat lastsp24.fake
+  817  awk '{print $7,$8,$9}' lastsp24.fake
+  818  awk '{print $7,$9}' lastsp24.fake
+  819  awk '$7 >= 11 {print $1}' lastsp24.fake
+  820  awk '$7 >= 11 $9 <= 04  {print $0}' lastsp24.fake
+  821  awk '$7 >= 11 && $9 <= 04  {print $0}' lastsp24.fake
+  822  awk '$7 >= 11 && $9 <= 04  {print $1}' lastsp24.fake | sort | uniq
+  823  awk '$7 >= 11 && $9 <= 04  {print $1}' lastsp24.fake | sort | uniq > unique2.txt (task 3)
+  824  awk ' BEGIN {print "Night Owls List:"} {print $0} END {print "Night Owls are dope. Please ensure you get enough sleep though."} ' unique2.txt >> Assignment3.txt
+  825  vi Assignment3.txt
+  826  clear
+  827  awk '$7 >= 05 && $9 <= 09  {print $1}' lastsp24.fake | sort | uniq > unique3.txt (Task 4)
+  828  awk ' BEGIN {print "Early Birds List:"} {print $0} END {print "Early Birds are dope. Please ensure you get enough sleep though."} ' unique3.txt >> Assignment3.txt
+  829  vi Assignment3.txt
+  830  cat lastsp24.fake
+  831  awk '$7 >= 05 && $9 <= 09  {print $0}' lastsp24.fake
+  832  awk '$7 >= 05:00 && $9 <= 09  {print $0}' lastsp24.fake
+  833  awk '$7 >= 5AM && $9 <= 09  {print $0}' lastsp24.fake
+  834  awk '$7 >= 5AM && $9 <= 9AM  {print $0}' lastsp24.fake
+  835  awk '$7 >= 05 {print $0}' lastsp24.fake
+  836  awk '$7 >= 11 {print $0}' lastsp24.fake
+  837  clear
+  838  vi Assignment3.txt
+  839  awk '$1 ~ /^t/ print {$0}' lastsp24.fake (Task 5)
+  840  awk '$1 ~ /^t/ {print $0}' lastsp24.fake
+  841  cat lastsp24.txt
+  842  cat lastsp24.fake
+  843  awk '$1 ~ /^t/ {print $0}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  844  vi Assignment3.txt
+  845  awk '$1 ~ /^t/ {print $0}' lastsp24.fake | sort 
+  846  awk '$1 ~ /^t/ {print $0}' lastsp24.fake | sort | uniq
+  847  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  848  vi Assignment3.txt
+  849  cat passwd.fake
+  850  awk '^a {print $0}' passwd.fake
+  851  awk -F: '$1 ~ ^a {print $0}' passwd.fake
+  852  awk -F: '$1 ~ /^a/ {print $0}' passwd.fake (Task 6)
+  853  awk -F: '$1 ~ /^a/ && $3%2==0 {print $0}' passwd.fake
+  854  awk -F: '$1 ~ /^a/ && $3%2==0 {print $0}' passwd.fake >> Assignment3.txt
+  855  vi Assignment3.txt
+  856  sed 's/[\w]//' passwd.fake
+  857  sed 's/\w//' passwd.fake
+  858  sed 's/[a-z]//' passwd.fake
+  859  sed '/[a-z]/d' passwd.fake
+  860  cat passwd.fake
+  861  clear
+  862  sed 's/\[a-z]\//' passwd.fake
+  863  sed -g 's/\[a-z]\//' passwd.fake
+  864  sed 's/\[a-z]\//g' passwd.fake
+  865  sed 's/[a-z]//g' passwd.fake
+  866  sed 's/[a-z,0-9]//g' passwd.fake (Task 7)
+  867  sed 's/[a-z,0-9]//gI' passwd.fake
+  868  sed 's/[a-z,0-9]//gI' passwd.fake | sort -u
+  869  sed 's/[a-z,0-9, ]//gI' passwd.fake | sort -u
+  870  sed 's/[a-z,0-9, ]//gI' passwd.fake | sort -u >> Assignment3.txt
+  871  vi Assignment3.txt
+  872  clear
+  873  ls
+  874  history 150
+  875  history 100
+  876  history 90
+  877  history 92 > cmds.log
