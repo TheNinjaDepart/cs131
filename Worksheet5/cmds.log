@@ -1,0 +1,100 @@
+  935  ls
+  936  cat 'Global YouTube Statistics.csv'
+  937  mkdir United States 
+  938  cd United States
+  939  cd United_States
+  940  ls
+  941  rm States
+  942  rmd States
+  943  rmdir States
+  944  rmdir United
+  945  mkdir UnitedStates
+  946  cd UnitedStates
+  947  cat 'Global YouTube Statistics.csv' | grep ",United States,"
+  948  cd ..
+  949  rm 'Global YouTube Statistics.csv'
+  950  ls
+  951  clear
+  952  cd UnitedStates
+  953  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  954  cat 'Global YouTube Statistics.csv' | grep ",United States,"
+  955  cat 'Global YouTube Statistics.csv' | grep ",United States," | for word in Music Entertainment Gaming Comedy; do grep $i >> $i.txt; done 
+  956  cat 'Global YouTube Statistics.csv' | grep ",United States," | for word in Music Entertainment Gaming Comedy; do grep $word >> $word.txt; done 
+  957  ls
+  958  cat Comedy.txt
+  959  cat Entertainment.txt
+  960  cat 'Global YouTube Statistics.csv' | grep ",United States," | for word in Music Entertainment Gaming Comedy; do grep "$word" >> $word.txt; done 
+  961  cat Gaming.txt
+  962  cat 'Global YouTube Statistics.csv' | grep ",United States," | for word in Music Entertainment Gaming Comedy; do echo $word; done 
+  963  cat 'Global YouTube Statistics.csv' | grep ",United States," | for word in Music Entertainment Gaming Comedy; do echo $word grep $word ; done 
+  964  touch script.sh 
+  965  which bash
+  966  vi script.sh
+  967  chmod u+x script.sh
+  968  bash script.sh
+  969  clear
+  970  vi script.sh
+  971  rm script.sh
+  972  ls
+  973  touch script.sh
+  974  vi script.sh
+  975  chmod u+x script.sh
+  976  bash script.sh
+  977  clear
+  978  vi script.sh
+  979  bash script.sh
+  980  ls
+  981  cat Comedy.txt
+  982  vi script.sh
+  983  bash script.sh
+  984  cat Comedy.txt
+  985  vi script.sh
+  986  cat 'Global YouTube Statistics.csv'
+  987  vi script.sh
+  988  bash script.sh
+  989  vi script.sh
+  990  bash script.sh
+  991  vi script.sh
+  992  bash script.sh
+  993  cat Gaming.txt
+  994  vi script.sh
+  995  bash script.sh
+  996  vi script.sh
+  997  bash script.sh
+  998  cat Music.txt
+  999  cat Gaming.txt
+ 1000  vi script.sh
+ 1001  bash script.sh
+ 1002  cat Music.txt
+ 1003  vi script.sh
+ 1004  bash script.sh
+ 1005  vi script.sh
+ 1006  bash script.sh
+ 1007  cat Gaming.txt
+ 1008  cat Music.txt
+ 1009  cat Entertainment.txt
+ 1010  clear
+ 1011  ls
+ 1012  rm test.txt
+ 1013  cat history
+ 1014  cd ..
+ 1015  history
+ 1016  history 100 cmds.log
+ 1017  history 100 > cmds.log
+ 1018  cat cmds.log
+ 1019  clear
+ 1020  cd >>
+ 1021  cd ..
+ 1022  cd Worksheet5
+ 1023  ls
+ 1024  wc -l /UnitedStates/Gaming.txt
+ 1025  which bash
+ 1026  wc -l Worksheet5/UnitedStates/Gaming.txt
+ 1027  cd UnitedStates
+ 1028  wc -l Gaming.txt
+ 1029  wc -l Music.txt
+ 1030  wc -l Entertainment.txt
+ 1031  wc -l Comedy.txt
+ 1032  cd ..
+ 1033  vi ws5.txt
+ 1034  history 100 > cmds.log
